@@ -1,0 +1,120 @@
+#messages {
+    display:none;
+}
+
+i {
+    border-radius: 21px;
+    padding: 9px;
+    transition: 0.2s ease-out;
+    width: 80px;
+    display: inline-block
+}
+
+table {
+    width: 100%;
+}
+
+#game {
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+}
+
+.leg {
+    box-shadow: 7px 7px 28px 0px rgba(50, 50, 50, 0.6);
+    height: 55px;
+    width: 12px;
+    border-radius: 0 0 8px 8px;
+    float: left
+}
+
+.right {
+    border: 0px solid #00f;
+    float: right
+}
+
+table {
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4AA9D0;
+    padding: 0 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+td {
+    width: 33px;
+    height: 33px;
+    margin: 10px 5px;
+    border-radius: 33px;
+    background-color: #FFF;
+}
+}
+
+button {
+    margin: 20px auto 0
+}
+
+#game,
+table {
+    margin: 30px auto 0
+}
+.leg,
+table {
+    background: #00f
+}
+
+td:hover {
+    opacity: 0.6
+}
+
+td.Red,
+td.Yellow {
+    box-shadow: inset 0 0 25px rgba(99, 99, 99, 0.7)
+}
+
+.Red:hover,
+.Yellow:hover {
+    opacity: 1
+}
+
+.Yellow {
+    background: #ff0
+}
+
+.Red {
+    background: #f00;
+    color: #fff
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5px;
+}
+
+.footer button {
+    margin: 5px;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.footer button.fb {
+    background-color: #3478E8;
+    border-color: #3478E8;
+    color: #FFF;
+}
+
+.footer button.embed {
+    background-color: transparent;
+    border-color: #3987A7;
+    color: #3987A7;
+}
+
+.footer button.embed:hover {
+    background-color: #3987A7;
+    border-color: #3987A7;
+    color: #FFF;
